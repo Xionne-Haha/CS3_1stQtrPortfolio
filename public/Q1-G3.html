@@ -1,0 +1,27 @@
+<h1> Xionne Jacob - 9-Na - Aug 11, 2025</h1>
+
+<h2> Third Graded Exercise - First Quarter</h2>
+
+<p> Here's a list of my friends!</p> <br>
+<label for="in1">Friend 1:</label>
+<input id="in1" type="text" placeholder="Friend1"> <br>
+<label for="in1">Friend 2:</label>
+<input id="in2" type="text" placeholder="Friend2"> <br>
+<button onclick="addFriends()"> Add Friend </button>
+
+
+<div id="out1"></div>
+
+<!-- This is aan html comment-->
+
+<script>
+    // this is a Javascript comment
+  function addFriends() {
+    var int1 = document.getElementById("in1");
+    var int2 = document.getElementById("in2");
+    var out1 = document.getElementById("out1");
+
+    out1.innerHTML += "<p>" + int1.value + "</p>";
+    out1.innerHTML += "<p>" + int2.value + "</p>";
+  }
+  </script>
