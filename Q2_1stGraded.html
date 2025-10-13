@@ -6,6 +6,35 @@
     <title>Sodium Class Schedule</title>
     
     <style>
+        .nav-header {
+            text-align: center; 
+            padding: 15px 0; 
+            background-color: #4a90e2; 
+            border-bottom: 5px solid #357abd;
+            margin-bottom: 25px; 
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        .nav-header a {
+            text-decoration: none; 
+            color: white; 
+            font-weight: bold; 
+            margin: 0 20px; 
+            font-size: 16px; 
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .nav-header a:hover {
+            background-color: #357abd; 
+        }
+        
+        .nav-header a.active {
+            background-color: #ffcc00; 
+            color: #333;
+        }
+        
         table {
             width: 50%;
             margin: 20px auto;
@@ -30,6 +59,15 @@
     </style>
 </head>
 <body>
+    
+    <div class="nav-header">
+        <!-- Replace the '#' with the actual file names for your projects -->
+        <a href="monday.html">Monday</a>
+        <a href="tuesday.html">Tuesday</a>
+        <a href="wednesday.html">Wednesday</a>
+        <a href="thursday.html">Thursday</a>
+        <a href="" class="active">Friday</a> 
+    </div>
 
     <h1 style="text-align: center;">Sodium Class Schedule</h1>
 
@@ -100,7 +138,6 @@
 </html>
 
 <h1>Friday</h1>
-    <table> 
       <tr>
         <th>omg header</th>
         <th>header 2</th>
